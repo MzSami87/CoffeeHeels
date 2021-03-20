@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: url(images/blk_girl_drinking_coffee_bw.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Redressed', cursive; */
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    font-size: 150px;
+    color: fuchsia;
+    text-shadow: 5px 3px 5px transparent;
+    margin-bottom:400px;
+}
+
+.glass {
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    width:400px;
+    margin-top:100px;
+}
+
+h3 {
+    font-size: 75px;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    margin-top:300px;
+    color: fuchsia;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+    color: fuchsia;
+    text-shadow: 2px 2px 2px fuchsia;
+    /* text-align: center; */
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    text-shadow: 2px 2px 2px lightcyan;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 600;
+}
+
+.bio {
+    width:75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  width: 50%;
+}
+
+.social_media {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-top:200px;
+}
+
+.icon {
+    width:50px;
+    margin: auto;
+}
